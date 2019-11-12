@@ -4,7 +4,8 @@ type: exec
 
 steps:
 - name: helm-push
-  image: harbor.test.fangyuanyouyue.com/library/drone-helm-push:latest
+  image: harbor.test.fangyuanyouyue.com:443/library/drone-helm-push:latest
+  pull: always
   settings:
     repo: harbor.test.fangyuanyouyue.com/chartrepo/library
     username: admin
