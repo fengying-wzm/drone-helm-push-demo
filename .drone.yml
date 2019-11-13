@@ -1,6 +1,6 @@
 kind: pipeline
-name: default
 type: exec
+name: default
 
 steps:
 - name: helm-push
