@@ -6,7 +6,7 @@ steps:
 - name: helm-push
   image: harbor.test.fangyuanyouyue.com:443/library/drone-helm-push:latest
   settings:
-    repo: https://harbor.test.fangyuanyouyue.com:443/chartrepo/library
+    repo: harbor.test.fangyuanyouyue.com:443/chartrepo/library
     username: admin
     password: Wuzhimin123
     cert: 
